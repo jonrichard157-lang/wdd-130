@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e5e5e5;
+    margin: 0;
+    text-align: center;
+}
+
+/* HEADER */
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* TITLE */
+h1 {
+    margin: 20px 0;
+}
+
+/* IMAGE */
+.image-container img {
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* CARDS */
+.card {
+    background-color: #dcdcdc;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: left;
+    border-radius: 3px;
+}
+
+.card h2 {
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
