@@ -19,6 +19,7 @@
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
+  background-color: var(--secondary-color);
 }
 
 header {
@@ -76,7 +77,7 @@ p, section, article {
 
 /* Artigo dentro do hero */
 .hero article img {
-  border:#1b4965 80px;
+  border:2px solid var(--accent2-color);
   float: right;
   width: 125px;
 }
@@ -92,6 +93,10 @@ footer {
   list-style: none;        /* remove bolinhas */
   display: flex;           /* 🔥 coloca em linha */
   gap: 10px;               /* espaço entre ícones */
+}
+
+.socialmedia a {
+  text-decoration: none;
 }
 
 .history-content {
@@ -121,5 +126,20 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
+  background-color: var(--accent2-color);
 }
 
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+button {
+    background-color: var(--accent2-color);
+}
