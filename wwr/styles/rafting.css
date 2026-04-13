@@ -1,8 +1,8 @@
 /* CSS Variables */
 :root {
-  --primary-color: #1b4965;      /* azul escuro */
+  --primary-color: #222;      /* azul escuro */
   --secondary-color: #62b6cb;    /* azul claro */
-  --accent1-color: #4d6271;      /* azul bem claro */
+  --accent1-color: #000000;      /* azul bem claro */
   --accent2-color: #5fa8d3;      /* azul médio */
   --heading-font: "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
@@ -126,7 +126,8 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--accent2-color);
+  background-color: #00000079;
+  color: var(--accent1-color)
 }
 
 
