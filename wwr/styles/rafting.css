@@ -66,21 +66,23 @@ p, section, article {
 /* Título sobre imagem */
 .hero h1 {
   position: absolute;
-  top: 20px;
-  width: 100%;
-  padding: 16px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  padding: 10px 20px;
   text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
+  background-color: rgba(0,0,0,0.5);
   color: white;
+  border-radius: 5px;
 }
 
 /* Artigo dentro do hero */
-.hero article img {
+/*.hero article img {
   border:2px solid var(--accent2-color);
   float: right;
   width: 125px;
-}
+}/*
 
 /* Footer */
 footer {
@@ -203,3 +205,53 @@ button {
   width: 100%;
   max-width: 150px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.newsletter {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+}
+
+header {
+  width: 100%;
+  max-width: 840px;
+}
+
+.cta {
+  background-color: #cbb89d;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--accent2-color);
+  color: white;
+  border-radius: 5px;
+}
+
